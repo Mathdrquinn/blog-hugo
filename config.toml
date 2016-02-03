@@ -1,4 +1,4 @@
-baseurl = "http://mathdrquinn.github.io/"
+baseurl = "http://brendan-quinn.xyz/"
 languageCode = "en-us"
 title = "Brendan Quinn"
 # Enable Comments
@@ -19,7 +19,7 @@ canonifyurls = true
   category = "categories"
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+  post = "/blog/:title"
 
 [taxonomies]
   category = "categories"
