@@ -1,0 +1,103 @@
+baseurl = "http://mathdrquinn.github.io/"
+languageCode = "en-us"
+title = "Brendan Quinn"
+# Enable Comments
+disqusShortname = "brendanquinn"
+# googleAnalytics
+googleAnalytics = ""
+# Define the number of posts per site
+paginate = 10
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus-theme"
+# For GH-pages
+contentdir = "content"
+layoutdir =  "layouts"
+publishdir = "public"
+canonifyurls = true
+
+[indexes]
+  category = "categories"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+  [params]
+    # Tell me who you are
+    author = "Brendan Quinn"
+    bio = "Husband - Father - Programmer - Person"
+    location = "Indianapolis, IN"
+    site_description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    avatar = "css/images/BrendanQuinn.jpeg"
+
+    # Format dates with Go's time formatting
+    date_format = "January 02 2006 @ 03:04PM"
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+  before = true
+  label  = "Home"
+  link   = "/"
+
+[[params.menu]]
+  before = false
+  label  = "Tags"
+  link   = "tags/"
+
+[[params.menu]]
+  before = false
+  label  = "Categories"
+  link   = "categories/"
+
+# Enter a link for the follow button on the left
+[params.profile]
+  follow_button = "https://twitter.com/MathDrQuinn"
+
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# create automatically.
+  github          = "Mathdrquinn"
+  bitbucket       = ""
+  jsfiddle        = ""
+  codepen         = "Mathdrquinn"
+  foursquare      = ""
+  dribbble        = ""
+  deviantart      = ""
+  behance         = ""
+  flickr          = ""
+  instagram       = ""
+  youtube         = ""
+  vimeo           = ""
+  vine            = ""
+  medium          = ""
+  wordpress       = ""
+  tumblr          = ""
+  xing            = ""
+  linkedin        = "brendanquinn3"
+  slideshare      = ""
+  stackoverflow   = ""
+  reddit          = ""
+  pinterest       = ""
+  googleplus      = ""
+  facebook        = "quinn.197"
+  facebook_admin  = ""
+  twitter_domain  = ""
+  twitter         = "Mathdrquinn"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+  recent_articles = true
+  categories = false
+  tags = false
+  tag_cloud = true
