@@ -19,7 +19,7 @@ canonifyurls = true
   category = "categories"
 
 [permalinks]
-  post = "/blog/:title"
+  post = "/post/:title"
 
 [taxonomies]
   category = "categories"
@@ -43,20 +43,21 @@ canonifyurls = true
 #
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
-[[params.menu]]
-  before = true
-  label  = "Home"
-  link   = "/"
 
 [[params.menu]]
   before = false
-  label  = "Tags"
-  link   = "tags/"
+  label  = "Work"
+  link   = "work/"
 
 [[params.menu]]
   before = false
-  label  = "Categories"
-  link   = "categories/"
+  label  = "Blog"
+  link   = "blog/"
+
+[[params.menu]]
+  before = false
+  label  = "Contact"
+  link   = "contact/"
 
 # Enter a link for the follow button on the left
 [params.profile]

@@ -1,0 +1,33 @@
+{
+  "name": "hugo-blog",
+  "version": "1.0.0",
+  "description": "Brendan's Hugo Blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathdrquinn/blog-hugo.git"
+  },
+  "keywords": [
+    "Hugo",
+    "Gulp"
+  ],
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "express": "^4.11.2",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-minify-css": "^0.4.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "tiny-lr": "^0.1.5"
+  },
+  "author": "Brendan Quinn <quinn.197@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathdrquinn/blog-hugo/issues"
+  },
+  "homepage": "https://github.com/Mathdrquinn/blog-hugo#readme"
+}
