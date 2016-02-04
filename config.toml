@@ -4,7 +4,7 @@ title = "Brendan Quinn"
 # Enable Comments
 disqusShortname = "brendanquinn"
 # googleAnalytics
-googleAnalytics = ""
+googleAnalytics = "UA-73327726-1"
 # Define the number of posts per site
 paginate = 10
 footnotereturnlinkcontents = "↩"
