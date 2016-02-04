@@ -1,0 +1,15 @@
+{{ partial "head" . }}
+
+<div id="container" class="contact">
+	{{ partial "header" . }}
+
+   	<div class="outer">
+	    {{ partial "profile" . }}
+	    {{ template "contact/contact-body.html" . }}
+	    {{ partial "sidebar" . }}
+	</div>
+</div>
+
+{{ partial "footer" . }}
+</body>
+</html>

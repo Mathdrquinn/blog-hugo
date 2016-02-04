@@ -1,0 +1,6 @@
+<footer class="article-footer">
+  {{ partial "social" . }}
+  <a data-url="{{ .Permalink }}" data-id="{{ .UniqueID }}" class="article-share-link">
+      {{with .Site.Data.l10n.articles.share}}{{.}}{{end}}
+  </a>
+</footer>

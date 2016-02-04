@@ -1,0 +1,97 @@
+#hero {
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+
+  .band__content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.lg-break {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  #hero {
+    height: calc(80% - 64px);
+    min-height: 400px;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg)
+    center center / cover
+    no-repeat;
+
+    .title {
+      color: #fff;
+      font-size: 38px;
+      text-shadow: 1px 1px 2px #222;
+      width: 50%;
+    }
+
+    .lg-break {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+  #hero {
+    height: calc(80% - 64px);
+    min-height: 400;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg)
+    center center / cover
+    no-repeat;
+
+    .title {
+      color: #fff;
+      font-size: 38px;
+      text-shadow: 1px 1px 2px #222;
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  #hero {
+    height: calc(80% - 64px);
+    min-height: 400;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-md.jpg)
+    center left / cover
+    no-repeat;
+
+    .title {
+      color: #fff;
+      font-size: 28px;
+      text-shadow: 1px 1px 2px #222;
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  #hero {
+    padding: 0;
+    height: calc(80% - 64px);
+    min-height: 400;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-sm.jpg)
+    7% center / cover
+    no-repeat;
+
+    .band__content-container {
+      background-color: rgba(20, 20, 20, 0.3);
+    }
+
+    .title {
+      padding-left: 15px;
+      color: #fff;
+      font-size: 24px;
+      text-shadow: 1px 1px 2px #222;
+      width: 75%;
+    }
+  }
+}

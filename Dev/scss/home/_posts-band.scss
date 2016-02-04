@@ -1,0 +1,126 @@
+#Posts {
+  background: #fff;
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  .title {
+    color: #999;
+    text-align: center;
+    width: 100%;
+  }
+
+  .band__content-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .post-image {
+    border: 1px solid #222;
+  }
+
+  .post-title {
+    padding: 5px 0;
+    color: #222;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #Posts {
+    padding: 50px 35px;
+
+    .title {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .band__item {
+      width: 40%;
+      padding: 0 3.33%;
+      text-align: center;
+
+      .post-image {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+  #Posts {
+    padding: 50px 35px;
+
+    .title {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .band__item {
+      padding: 0 3.33%;
+      width: 30%;
+      text-align: center;
+
+      .post-image {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 799px) {
+  #Posts {
+    padding: 35px;
+
+    .title {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .band__content-container {
+      flex-wrap: wrap;
+    }
+
+    .band__item {
+      width: 100%;
+      text-align: center;
+
+      .post-image {
+        width: 100%;
+      }
+
+      .post-title {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  #Posts {
+    padding: 15px;
+
+    .title {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .band__content-container {
+      flex-wrap: wrap;
+    }
+
+    .band__item {
+      width: 100%;
+      text-align: center;
+
+      .post-image {
+        width: 100%;
+      }
+
+    }
+  }
+}

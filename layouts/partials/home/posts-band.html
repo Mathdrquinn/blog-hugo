@@ -1,0 +1,17 @@
+<div id="Posts" class="band">
+  <h2 class="title">Latest Posts</h2>
+  <div class="band__content-container">
+    {{ range first 6 (where .Site.Pages "Type" "post") }}
+      <figure class="band__item post1">
+        {{ if isset .Params "banner" }}
+          <a href="{{ .Permalink }}">
+            <img class="post-image" src="{{ $.Site.BaseURL }}{{ .Params.banner }}" alt="{{ $.Title }}">
+          </a>
+        {{end}}
+        <a href="{{ .Permalink }}">
+          <figcaption class="post-title">{{ .Title }}</figcaption>
+        </a>
+      </figure>
+    {{ end }}
+  </div>
+</div>
