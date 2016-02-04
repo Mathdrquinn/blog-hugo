@@ -31,7 +31,7 @@ canonifyurls = true
     bio = "Husband - Father - Programmer - Person"
     location = "Indianapolis, IN"
     site_description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = "Powered by [Hugo](//gohugo.io). Child theme of [Icarus](http://github.com/ppoffice) by Brendan."
     avatar = "css/images/BrendanQuinn.jpeg"
 
     # Format dates with Go's time formatting
@@ -52,7 +52,7 @@ canonifyurls = true
 [[params.menu]]
   before = false
   label  = "Blog"
-  link   = "blog/"
+  link   = "post/"
 
 [[params.menu]]
   before = false

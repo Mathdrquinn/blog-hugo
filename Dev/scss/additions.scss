@@ -1,4 +1,5 @@
-@import "nav";
-@import "about";
-@import "contact";
-@import "work";
+@import "variables";
+@import "base";
+@import "components/components";
+@import "home/home";
+@import "pages/pages";
