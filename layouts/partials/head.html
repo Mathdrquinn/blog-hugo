@@ -15,8 +15,7 @@
       <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
       <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
-    <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">
-    <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
+    {{ partial "head/favicon" . }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/additions.min.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
@@ -24,6 +23,7 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}fancybox/jquery.fancybox.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    {{ partial "head/structured-data"}}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/google_news.html" . }}
     {{ template "_internal/schema.html" . }}
