@@ -156,7 +156,7 @@ ol li {
   #hero {
     padding: 0;
     height: calc(80% - 64px);
-    min-height: 400;
+    min-height: 400px;
     background: url(/css/images/heros/Brendan-Quinn-Hero-sm.jpg) 7% center/cover no-repeat;
   }
   #hero .band__content-container {
