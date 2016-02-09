@@ -5422,6 +5422,4 @@ ol li {
 
 .page-loading {
   width: 0px !important;
-  -webkit-transition: all 0.3s;
-          transition: all 0.3s;
 }
