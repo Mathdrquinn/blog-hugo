@@ -42,7 +42,7 @@
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
   #hero {
     height: calc(80% - 64px);
-    min-height: 400;
+    min-height: 400px;
     background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg)
     center center / cover
     no-repeat;
@@ -59,7 +59,7 @@
 @media only screen and (min-width: 560px) {
   #hero {
     height: calc(80% - 64px);
-    min-height: 400;
+    min-height: 400px;
     background: url(/css/images/heros/Brendan-Quinn-Hero-md.jpg)
     center left / cover
     no-repeat;
