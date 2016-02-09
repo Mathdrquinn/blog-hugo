@@ -8,6 +8,10 @@ images = []
 tags = ["Heroku", "Hover"]
 title = "Pointing Hover Domain to Your Heroku App"
 
+[params]
+  bannerLg = "css/images/banners/hover-lg.jpg"
+  bannerMd = "css/images/banners/hover-md.jpg"
+  bannerSm = "css/images/banners/hover-sm.jpg"
 +++
 
 Hosting static sites for free on Github's Pages is fantastic, but it might be more preferable to ru your own server.  My go-to for that is [Heroku](https://www.heroku.com/).  This post will not go into how to host on Heroku (I will assume you already are hosting there), but how to point your purchased [hover](hover.com) domain to your Heroku-hosted web-app.<!--more-->  The process has a few more nuances than my previous post on [pointing to gh-pages](/blog/pointing-hover-domain-to-github-pages/).

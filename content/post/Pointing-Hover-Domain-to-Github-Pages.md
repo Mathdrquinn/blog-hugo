@@ -7,6 +7,10 @@ images = []
 tags = ["Github", "Hover"]
 title = "Pointing Hover Domain to Github Pages"
 
+[params]
+  bannerLg = "css/images/banners/GithubPages-lg.jpg"
+  bannerMd = "css/images/banners/GithubPages-md.jpg"
+  bannerSm = "css/images/banners/GithubPages-sm.jpg"
 +++
 
 I was introduced to [hover](hover.com) by being an info nerd with [99% Invisible](http://99percentinvisible.org/).  Many people still use Go Daddy because it is the industry standard and, for the most part, it is cheaper.  I prefer good customer service and a simple UX, hence my hover preference.  It seems there is still a small lack of resources on integrating hosting services with hover, so I'd like to put my findings here.<!--more-->  This process was made a lot easier with help from [Michael Deeb](http://michaeljdeeb.com/blog/using-a-custom-domain-with-github-pages/), though my explanation aims to be more visual and ELI5.  This post assumes you're familiar with Github and the git cli.  If you're not familiar, begin [here](https://help.github.com/articles/set-up-git/).

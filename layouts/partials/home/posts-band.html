@@ -5,7 +5,12 @@
       <figure class="band__item post1">
         {{ if isset .Params "banner" }}
           <a href="{{ .Permalink }}">
-            <img class="post-image" src="{{ $.Site.BaseURL }}{{ .Params.banner }}" alt="{{ $.Title }}">
+            <picture>
+              <source media="(min-width: 800px)" srcset="{{ $.Site.BaseURL }}{{ .Params.params.bannerLg }}">
+              <source media="(min-width: 560px) and (max-width: 799px)" srcset="{{ $.Site.BaseURL }}{{ .Params.params.bannerMd }}">
+              <source media="(max-width: 559px)" srcset="{{ $.Site.BaseURL }}{{ .Params.params.bannerSm }}">
+              <img class="post-image" src="{{ $.Site.BaseURL }}{{ .Params.banner }}" alt="{{ $.Title }}">
+            </picture>
           </a>
         {{end}}
         <a href="{{ .Permalink }}">

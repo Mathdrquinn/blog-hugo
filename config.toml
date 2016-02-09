@@ -25,17 +25,17 @@ canonifyurls = true
   category = "categories"
   tag = "tags"
 
-  [params]
-    # Tell me who you are
-    author = "Brendan Quinn"
-    bio = "Husband - Father - Programmer - Person"
-    location = "Indianapolis, IN"
-    site_description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
-    copyright  = "Powered by [Hugo](//gohugo.io). Child theme of [Icarus](http://github.com/ppoffice) by Brendan."
-    avatar = "css/images/BrendanQuinn.jpeg"
+[params]
+  # Tell me who you are
+  author = "Brendan Quinn"
+  bio = "Husband - Father - Programmer - Person"
+  location = "Indianapolis, IN"
+  site_description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
+  copyright  = "Powered by [Hugo](//gohugo.io). Child theme of [Icarus](http://github.com/ppoffice) by Brendan."
+  avatar = "css/images/BrendanQuinn.jpeg"
 
-    # Format dates with Go's time formatting
-    date_format = "January 02 2006 @ 03:04PM"
+  # Format dates with Go's time formatting
+  date_format = "January 02 2006 @ 03:04PM"
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
