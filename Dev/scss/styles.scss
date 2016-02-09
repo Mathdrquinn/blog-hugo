@@ -6,3 +6,9 @@
 @import "components/components";
 @import "home/home";
 @import "pages/pages";
+
+// For delayed loading
+.page-loading {
+  width: 0px!important;
+  transition: all 0.3s;
+}

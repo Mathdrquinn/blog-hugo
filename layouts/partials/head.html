@@ -23,4 +23,5 @@
     {{ template "_internal/twitter_cards.html" . }}
 </head>
 <body>
+  <div class="page-loading" style="width: 100%; overflow: hidden; position: absolute; z-index: 100; top: 0; bottom: 0; right: 0; left: 0; display: flex; background: #fff; flex-flow: row nowrap; justify-content: center; align-items: center;"><img src="{{ .Site.BaseURL }}pie.gif" alt="loading..."></div>
   <div class="container">
