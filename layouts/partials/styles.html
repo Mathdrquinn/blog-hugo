@@ -1,0 +1,12 @@
+<script>
+(function() {
+  var stylesLink = document.createElement('link');
+  stylesLink.rel = "stylesheet";
+  stylesLink.href = "{{ .Site.BaseURL }}css/styles.min.css";
+  document.querySelector("head").appendChild(stylesLink);
+  var link = document.createElement('link');
+  link.rel = "stylesheet";
+  link.href = "//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600|Source+Code+Pro";
+  document.querySelector("head").appendChild(link);
+})();
+</script>
