@@ -4889,6 +4889,14 @@ ol li {
   margin-bottom: 10px;
 }
 
+.article-entry code {
+  color: #16779D;
+}
+
+.article-entry pre code {
+  color: inherit;
+}
+
 .band {
   width: 100%;
   box-sizing: border-box;

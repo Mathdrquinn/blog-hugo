@@ -8,3 +8,11 @@ ol {
     margin-bottom: 10px;
   }
 }
+
+.article-entry code {
+    color: $dark-blue;
+}
+
+.article-entry pre code {
+    color: inherit;
+}
