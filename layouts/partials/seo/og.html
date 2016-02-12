@@ -66,3 +66,6 @@
 {{ with .Site.Social.facebook_admin }}
   <meta property="fb:admins" content="{{ . }}" />
 {{ end }}
+{{ with .Site.Social.facebook_app_id }}
+  <meta property="fb:app_id" content="{{ . }}" />
+{{ end }}

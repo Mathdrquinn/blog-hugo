@@ -95,6 +95,7 @@ canonifyurls = true
   googleplus      = ""
   facebook        = "quinn.197"
   facebook_admin  = ""
+  facebook_app_id = "1691357581111155"
   twitter_domain  = ""
   twitter         = "Mathdrquinn"
 
