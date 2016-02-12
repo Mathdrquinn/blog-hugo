@@ -1,7 +1,7 @@
 <div id="Posts" class="band">
   <h2 class="title">Latest Posts</h2>
   <div class="band__content-container">
-    {{ range first 6 (where .Site.Pages "Type" "post") }}
+    {{ range first 4 (where .Site.Pages "Type" "post") }}
       <figure class="band__item post1">
         {{ if isset .Params "banner" }}
           <a href="{{ .Permalink }}">

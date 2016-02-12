@@ -17,7 +17,12 @@
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+  }
+
+  .band__item {
+    padding: 0 15px;
+    margin: 0;
+    text-align: center;
   }
 
   .post-image {
@@ -40,9 +45,7 @@
     }
 
     .band__item {
-      width: 40%;
-      padding: 0 3.33%;
-      text-align: center;
+      width: 25%;
 
       .post-image {
         width: 100%;
@@ -60,9 +63,13 @@
       margin-bottom: 20px;
     }
 
+    .band__content-container {
+      flex-wrap: wrap;
+    }
+
     .band__item {
-      padding: 0 3.33%;
-      width: 30%;
+      margin-bottom: 20px;
+      width: 50%;
       text-align: center;
 
       .post-image {
@@ -86,8 +93,9 @@
     }
 
     .band__item {
-      width: 100%;
+      width: 50%;
       text-align: center;
+      margin-bottom: 20px;
 
       .post-image {
         width: 100%;
@@ -114,6 +122,7 @@
     }
 
     .band__item {
+      margin-bottom: 20px;
       width: 100%;
       text-align: center;
 
@@ -121,9 +130,6 @@
         width: 100%;
       }
 
-      .post-title {
-        font-size: 16px;
-      }
     }
   }
 }
