@@ -2,7 +2,7 @@
 banner = "css/images/banners/social-meta-tags-lg.jpg"
 categories = ["SEO"]
 date = "2016-02-12T03:01:40-05:00"
-description = "Find, investigate and change Hugo's internal templates, twitter cards edition."
+description = "Find, investigate, and change Hugo's internal templates, twitter cards edition."
 images = ["http://brendan-quinn.xyz/css/images/banners/social-meta-tags-seo.jpg"]
 menu = ""
 tags = ["SEO", "Hugo"]
@@ -14,7 +14,7 @@ title = "Working with Hugo's Internal Partial Templates: twitter-cards"
   bannerSm = "css/images/banners/social-meta-tags-sm.jpg"
 
 +++
-Hugo's internal template are neat and helpful.  They are templates that [live within hugo](https://github.com/spf13/hugo/blob/e445c35d6a0c7f5fc2f90f31226cd1d46e048bbc/tpl/template_embedded.go) and can be referenced similar to other templates.<!--more-->
+Hugo's internal templates are neat and helpful.  They are templates that [live within hugo](https://github.com/spf13/hugo/blob/e445c35d6a0c7f5fc2f90f31226cd1d46e048bbc/tpl/template_embedded.go) and can be referenced similar to other templates.<!--more-->
 
 ~~~html
 {{ template "_internal/opengraph.html" . }}

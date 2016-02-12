@@ -12,7 +12,6 @@ title = "Using HTML5 and Media Queries for Responsive Images"
   bannerLg = "css/images/banners/responsive-images-landscape-lg.jpg"
   bannerMd = "css/images/banners/responsive-images-landscape-md.jpg"
   bannerSm = "css/images/banners/responsive-images-landscape-sm.jpg"
-
 +++
 
 Using <code>&lt;picture&gt;</code> <code>&lt;source&gt;</code> and <code>&lt;img&gt;</code> HTML5 elements combined with the <code>media</code>, <code>srcset</code>, and <code>size</code> attributes, it is possible and even necessary to make responsive images for your users.<!--more-->  Doing so will minimize the size of your images, make it your site load faster, and therefore create a better UX. There are two approaches.<!--more-->  To decide, ask:
