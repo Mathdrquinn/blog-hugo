@@ -3,7 +3,7 @@ banner = "css/images/banners/GithubPages.jpg"
 categories = ["DNS"]
 date = "2016-02-02T09:49:50-05:00"
 description = "Point your hover.com domain to your static Github Pages hosted site with these tips.  this post will help with DNS settings and setting up a CNAME file."
-images = []
+images = ["http://brendan-quinn.xyz/css/images/banners/GithubPages-seo.jpg"]
 tags = ["Github", "Hover"]
 title = "Pointing Hover Domain to Github Pages"
 

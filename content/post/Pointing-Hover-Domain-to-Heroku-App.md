@@ -4,7 +4,7 @@ banner = "css/images/banners/hover.jpg"
 categories = ["DNS"]
 date = "2016-02-03T09:12:34-05:00"
 description = "Want to point your hover domain to your Heroku app?  This article will ELI5 how to alter the DNS records and Heroku settings to do just that."
-images = []
+images = ["http://brendan-quinn.xyz/css/images/banners/hover-seo.jpg"]
 tags = ["Heroku", "Hover"]
 title = "Pointing Hover Domain to Your Heroku App"
 

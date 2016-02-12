@@ -30,9 +30,11 @@ canonifyurls = true
   author = "Brendan Quinn"
   bio = "Husband - Father - Programmer - Person"
   location = "Indianapolis, IN"
+  description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
   site_description = "Hey there, I'm Brendan Quinn, an energetic introvert with a love of family, walking/hiking, listening, teaching, and code."
   copyright  = "Powered by [Hugo](//gohugo.io). Child theme of [Icarus](http://github.com/ppoffice) by Brendan."
   avatar = "css/images/BrendanQuinn.jpeg"
+  images = ["http://brendan-quinn.xyz/css/images/Brendan-Quinn-seo.jpg"]
 
   # Format dates with Go's time formatting
   date_format = "January 02 2006 @ 03:04PM"
