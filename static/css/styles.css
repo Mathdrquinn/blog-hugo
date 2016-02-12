@@ -4920,7 +4920,7 @@ ol li {
   }
   .band .band__content-container {
     width: 100%;
-    max-width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
   }
 }
@@ -5000,48 +5000,6 @@ ol li {
   display: none;
 }
 
-@media only screen and (min-width: 1200px) {
-  #hero {
-    height: calc(80% - 64px);
-    min-height: 400px;
-    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg) center center/cover no-repeat;
-  }
-  #hero .title {
-    color: #fff;
-    font-size: 38px;
-    text-shadow: 1px 1px 2px #222;
-    width: 50%;
-  }
-  #hero .lg-break {
-    display: block;
-  }
-}
-@media only screen and (min-width: 800px) and (max-width: 1199px) {
-  #hero {
-    height: calc(80% - 64px);
-    min-height: 400px;
-    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg) center center/cover no-repeat;
-  }
-  #hero .title {
-    color: #fff;
-    font-size: 38px;
-    text-shadow: 1px 1px 2px #222;
-    width: 60%;
-  }
-}
-@media only screen and (min-width: 560px) {
-  #hero {
-    height: calc(80% - 64px);
-    min-height: 400px;
-    background: url(/css/images/heros/Brendan-Quinn-Hero-md.jpg) center left/cover no-repeat;
-  }
-  #hero .title {
-    color: #fff;
-    font-size: 28px;
-    text-shadow: 1px 1px 2px #222;
-    width: 75%;
-  }
-}
 @media only screen and (max-width: 559px) {
   #hero {
     padding: 0;
@@ -5058,6 +5016,62 @@ ol li {
     font-size: 24px;
     text-shadow: 1px 1px 2px #222;
     width: 75%;
+  }
+}
+@media only screen and (min-width: 560px) {
+  #hero {
+    height: calc(80% - 64px);
+    min-height: 400px;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-md.jpg) center left/cover no-repeat;
+  }
+  #hero .title {
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #222;
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+  #hero {
+    height: calc(80% - 64px);
+    min-height: 400px;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg) center center/cover no-repeat;
+  }
+  #hero .title {
+    color: #fff;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #222;
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #hero {
+    min-height: 600px;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg) center center/cover no-repeat;
+  }
+  #hero .title {
+    color: #fff;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #222;
+    width: 50%;
+  }
+  #hero .lg-break {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #hero {
+    min-height: 800px;
+    background: url(/css/images/heros/Brendan-Quinn-Hero-lg.jpg) center center/cover no-repeat;
+  }
+  #hero .title {
+    color: #fff;
+    font-size: 38px;
+    text-shadow: 1px 1px 2px #222;
+    width: 50%;
+  }
+  #hero .lg-break {
+    display: block;
   }
 }
 #Skills {
