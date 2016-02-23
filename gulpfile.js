@@ -12,12 +12,12 @@ var gulp = require('gulp');
 
 gulp.task('sass', function() {
     return sass('Dev/scss', { style: 'expanded' })
-        .pipe(gulp.dest('static/css'))
-        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-	    .pipe(gulp.dest('static/css'))
-	    .pipe(rename({suffix: '.min'}))
-	    .pipe(minifycss())
-	    .pipe(gulp.dest('static/css'));
+      .pipe(gulp.dest('static/css'))
+      .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
+      .pipe(gulp.dest('static/css'))
+      .pipe(rename({suffix: '.min'}))
+      .pipe(minifycss())
+      .pipe(gulp.dest('static/css'));
 });
 
 gulp.task('watch', function() {
